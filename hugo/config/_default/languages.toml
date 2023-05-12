@@ -1,0 +1,17 @@
+[US]
+contentDir = "content/US"
+languageName = "United States"
+languageCode = "us"
+weight = 1
+
+[CN]
+contentDir = "content/CN"
+languageName = "China/中国"
+languageCode = "CN"
+weight = 2
+
+[NL]
+contentDir = "content/NL"
+languageName = "Netherlands/Nederland"
+languageCode = "NL"
+weight = 2
