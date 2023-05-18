@@ -1,16 +1,24 @@
   <div id='main'></div>
   <script>
-  fetch("/road_routes/{{ .Get 0 }}.json")
+  var filterby = "{{ .Get "filterby" }}";
+  var regex = new RegExp("{{ .Get "regex" }}","ig");
+  fetch("/road_routes/{{ .Get "country" }}.json")
   .then((res) => {
     return res.json();
   })
-  .then((data) => show(data));
+  .then((data) => show(data, filterby, regex));
 
 
-function show(data) {
+function show(data, filterby, regex) {
   var html = '<table><tr><td></td><td>ref</td><td>OSM ID</td><td>name</td><td>from</td><td>to</td><td>distance</td><td>network</td><td>note</td><td>wikipedia</td><td>wikidata</td></tr>';
   var i = 0;
   for (var osm_id in data) {
+
+    if (filterby != '') {
+      if (!data[osm_id][filterby]) continue;
+      if (!data[osm_id][filterby].match(regex)) continue;
+    }
+
     i++;
     data[osm_id]['link'] = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}'>iD</a>`;
     html += `<tr><td>${i}</td><td>${data[osm_id]['ref']}</td><td>${data[osm_id]['link']}</td><td>${data[osm_id]['name']}</td><td>${data[osm_id]['from'] ?? ''}</td><td>${data[osm_id]['to'] ?? ''}</td><td>${data[osm_id]['distance'] ?? ''}</td><td>${data[osm_id]['network'] ?? ''}</td><td>${data[osm_id]['note'] ?? ''}</td><td>${data[osm_id]['wikipedia'] ?? ''}</td><td>${data[osm_id]['wikidata'] ?? ''}</td></tr>`;

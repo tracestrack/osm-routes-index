@@ -4,4 +4,4 @@ type: 'blank'
 ---
 
 {{< breadcrumbs >}}
-{{< all_routes US >}}
+{{< all_routes country=US >}}
