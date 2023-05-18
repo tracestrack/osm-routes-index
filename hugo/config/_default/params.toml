@@ -1,5 +1,5 @@
-navbar_title = 'Highway Route Database'
-footer = "Copyright © 2021-2022 by kaiiiz"
+navbar_title = 'OpenStreetMap Routes Index'
+footer = "Contribute via <a href='https://github.com/tracestrack/osm-routes-index'>Github</a>. License: CC0-1.0."
 author = "kaiiiz"
 
 enable_zooming_js = true

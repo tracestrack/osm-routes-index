@@ -1,8 +1,23 @@
 [[navbar]]
-  identifier = "posts"
-  name = "文章"
-  url = "/zh-tw/posts/"
+  identifier = "road"
+  name = "公路网"
+  url = "/cn/road/"
   weight = 1
 
+[[navbar]]
+  identifier = "railway"
+  name = "铁路网"
+  url = "/cn/railway/"
+  weight = 2
 
+[[navbar]]
+  identifier = "subway"
+  name = "地铁"
+  url = "/cn/subway/"
+  weight = 3
 
+[[navbar]]
+  identifier = "bus"
+  name = "公交网"
+  url = "/cn/bus/"
+  weight = 4

@@ -13,10 +13,10 @@ If you have set up an OpenStreetMap database as described in
 you can dump the route relations with following SQL:
 
 ```
-select a.id, a.tags::hstore, ST_AsText(ST_Transform(ST_PointOnSurface(b.way),
-4326), 3857) AS way from planet_osm_rels as a inner join planet_osm_line as b on
+select a.id, ST_AsText(ST_Transform(ST_PointOnSurface(b.way),
+4326), 3857) AS way, a.tags::hstore from planet_osm_rels as a inner join planet_osm_line as b on
 substring(a.members[1], 2)::BIGINT = b.osm_id where a.tags::hstore->'route' in
-('road');
+('road') and a.tags::hstore ? 'name' and a.tags::hstore ? 'ref'
 ```
 
 It contains the route relation ID, tags, a random coordinate of the route (can be used in

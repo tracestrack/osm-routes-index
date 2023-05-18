@@ -447,19 +447,19 @@ details[open] > summary {
 
 @media screen and (min-width: 48rem) {
   main {
-    width: 80%; } }
+    width: 90%; } }
 
 @media screen and (min-width: 64rem) {
   main {
-    width: 60%; } }
+    width: 90%; } }
 
 @media screen and (min-width: 80rem) {
   main {
-    width: 40%; } }
+    width: 90%; } }
 
-@media screen and (min-width: 40%) {
+@media screen and (min-width: 90%) {
   main {
-    width: 40%; } }
+    width: 90%; } }
 
 article {
   line-height: 1.7; }

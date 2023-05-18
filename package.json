@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "country-locator": "^2.1.1",
+    "readline": "^1.3.0"
+  }
+}
