@@ -1,7 +1,12 @@
+[homepage]
+contentDir = "content/homepage"
+languageName = "Homepage"
+weight = 1
+
 [US]
 contentDir = "content/US"
 languageName = "United States"
-languageCode = "us"
+languageCode = "US"
 weight = 1
 
 [CN]
@@ -14,4 +19,10 @@ weight = 2
 contentDir = "content/NL"
 languageName = "Netherlands/Nederland"
 languageCode = "NL"
+weight = 2
+
+[BE]
+contentDir = "content/BE"
+languageName = "Belgium/Belgie"
+languageCode = "BE"
 weight = 2

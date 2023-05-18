@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://b82b7d54.osm-routes-index.pages.dev/"
 languageCode = "en"
 title = "Monochrome"
 theme = "hugo-theme-monochrome"
-defaultContentLanguage = "US"
+defaultContentLanguage = "homepage"
 enableEmoji = true
 paginate = 5
 
