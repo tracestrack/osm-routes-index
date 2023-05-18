@@ -1,4 +1,4 @@
-baseURL = "https://b82b7d54.osm-routes-index.pages.dev/"
+baseURL = "https://osm-routes-index.pages.dev/"
 languageCode = "en"
 title = "Monochrome"
 theme = "hugo-theme-monochrome"
