@@ -26,3 +26,15 @@ contentDir = "content/BE"
 languageName = "Belgium/Belgie"
 languageCode = "BE"
 weight = 2
+
+[DE]
+contentDir = "content/DE"
+languageName = "Germany"
+languageCode = "GE"
+weight = 2
+
+[FR]
+contentDir = "content/FR"
+languageName = "France"
+languageCode = "FR"
+weight = 2

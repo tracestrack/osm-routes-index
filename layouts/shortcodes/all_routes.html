@@ -8,12 +8,12 @@
 
 
 function show(data) {
-  var html = '<table><tr><td></td><td>编号</td><td>OSM ID</td><td>名称</td><td>起点</td><td>终点</td><td>距离</td><td>网络</td><td>Wikipedia</td><td>Wikidata</td></tr>';
+  var html = '<table><tr><td></td><td>ref</td><td>OSM ID</td><td>name</td><td>from</td><td>to</td><td>distance</td><td>network</td><td>note</td><td>wikipedia</td><td>wikidata</td></tr>';
   var i = 0;
   for (var osm_id in data) {
     i++;
     data[osm_id]['link'] = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}'>iD</a>`;
-    html += `<tr><td>${i}</td><td>${data[osm_id]['ref']}</td><td>${data[osm_id]['link']}</td><td>${data[osm_id]['name']}</td><td>${data[osm_id]['from'] ?? ''}</td><td>${data[osm_id]['to'] ?? ''}</td><td>${data[osm_id]['distance'] ?? ''}</td><td>${data[osm_id]['network'] ?? ''}</td><td>${data[osm_id]['wikipedia'] ?? ''}</td><td>${data[osm_id]['wikidata'] ?? ''}</td></tr>`;
+    html += `<tr><td>${i}</td><td>${data[osm_id]['ref']}</td><td>${data[osm_id]['link']}</td><td>${data[osm_id]['name']}</td><td>${data[osm_id]['from'] ?? ''}</td><td>${data[osm_id]['to'] ?? ''}</td><td>${data[osm_id]['distance'] ?? ''}</td><td>${data[osm_id]['network'] ?? ''}</td><td>${data[osm_id]['note'] ?? ''}</td><td>${data[osm_id]['wikipedia'] ?? ''}</td><td>${data[osm_id]['wikidata'] ?? ''}</td></tr>`;
   }
   html += '</table>';
   document.getElementById('main').innerHTML = html;
