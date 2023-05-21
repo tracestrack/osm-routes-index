@@ -1,13 +1,19 @@
 [[navbar]]
   identifier = "road"
-  name = "公路网"
+  name = "公路"
   url = "/cn/road/"
   weight = 1
 
 [[navbar]]
   identifier = "railway"
-  name = "铁路网"
+  name = "铁路"
   url = "/cn/railway/"
+  weight = 2
+
+[[navbar]]
+  identifier = "train"
+  name = "火车"
+  url = "/cn/train/"
   weight = 2
 
 [[navbar]]
@@ -18,6 +24,6 @@
 
 [[navbar]]
   identifier = "bus"
-  name = "公交网"
+  name = "公交"
   url = "/cn/bus/"
   weight = 4

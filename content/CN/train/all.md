@@ -5,4 +5,4 @@ date: "2023-01-01"
 ---
 
 {{< breadcrumbs >}}
-{{< all_routes country=CN >}}
+{{< train_routes country=CN >}}
