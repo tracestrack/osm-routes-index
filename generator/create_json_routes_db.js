@@ -6,6 +6,7 @@ const readline = require('readline');
 const fs = require('fs');
 var args = process.argv.slice(2);
 let file = args[0]
+let folder = args[1]
 
 const fileStream = fs.createReadStream(`${file}`);
 const rl = readline.createInterface({
@@ -45,8 +46,9 @@ var countryIDmap = {};
     }
   }
 
+  fs.mkdirSync(folder);
   for (var i in countryIDmap) {
     let data = JSON.stringify(countryIDmap[i]);
-    fs.writeFileSync(`country_routes/${i}.json`, data)
+    fs.writeFileSync(`${folder}/${i}.json`, data)
   }
 })();
