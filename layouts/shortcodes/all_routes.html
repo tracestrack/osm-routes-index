@@ -1,13 +1,12 @@
-  <div id='main'></div>
-  <script>
-  var filterby = "{{ .Get "filterby" }}";
-  var regex = new RegExp("{{ .Get "regex" }}","ig");
-  fetch("/road_routes/{{ .Get "country" }}.json")
+<div id='main'></div>
+<script>
+var filterby = "{{ .Get "filterby" }}";
+var regex = new RegExp("{{ .Get "regex" }}","ig");
+fetch("/road_routes/{{ .Get "country" }}.json")
   .then((res) => {
     return res.json();
   })
   .then((data) => show(data, filterby, regex));
-
 
 function show(data, filterby, regex) {
   var html = '<table><tr><td></td><td>ref</td><td>OSM ID</td><td>name</td><td>from</td><td>to</td><td>distance</td><td>network</td><td>note</td><td>wikipedia</td><td>wikidata</td></tr>';
@@ -21,9 +20,15 @@ function show(data, filterby, regex) {
 
     i++;
     data[osm_id]['link'] = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}'>iD</a>`;
-    html += `<tr><td>${i}</td><td>${data[osm_id]['ref']}</td><td>${data[osm_id]['link']}</td><td>${data[osm_id]['name']}</td><td>${data[osm_id]['from'] ?? ''}</td><td>${data[osm_id]['to'] ?? ''}</td><td>${data[osm_id]['distance'] ?? ''}</td><td>${data[osm_id]['network'] ?? ''}</td><td>${data[osm_id]['note'] ?? ''}</td><td>${data[osm_id]['wikipedia'] ?? ''}</td><td>${data[osm_id]['wikidata'] ?? ''}</td></tr>`;
+    let wikipedia = data[osm_id]['wikipedia'] ?? '';
+    data[osm_id]['wikipedia_link'] = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikipedia}">${wikipedia}</a>`;
+    let wikidata = data[osm_id]['wikidata'] ?? '';
+    data[osm_id]['wikidata_link'] = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikidata}">${wikidata}</a>`;
+
+    html += `<tr><td>${i}</td><td>${data[osm_id]['ref']}</td><td>${data[osm_id]['link']}</td><td>${data[osm_id]['name']}</td><td>${data[osm_id]['from'] ?? ''}</td><td>${data[osm_id]['to'] ?? ''}</td><td>${data[osm_id]['distance'] ?? ''}</td><td>${data[osm_id]['network'] ?? ''}</td><td>${data[osm_id]['note'] ?? ''}</td><td>${data[osm_id]['wikipedia_link'] ?? ''}</td><td>${data[osm_id]['wikidata_link'] ?? ''}</td></tr>`;
   }
   html += '</table>';
   document.getElementById('main').innerHTML = html;
 }
+
 </script>
