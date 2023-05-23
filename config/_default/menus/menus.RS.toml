@@ -1,0 +1,20 @@
+[[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/RS/road/"
+  weight = 1
+[[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/RS/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/RS/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/RS/railway/"
+  weight = 1

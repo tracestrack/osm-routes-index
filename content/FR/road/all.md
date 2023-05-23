@@ -1,7 +1,8 @@
 ---
-title: 'All road routes in France'
+title: 'All road routes in FR'
 type: 'blank'
+date: "2023-01-01"
 ---
 
 {{< breadcrumbs >}}
-{{< all_routes country=FR >}}
+{{< road_routes country=FR >}}

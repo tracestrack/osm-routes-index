@@ -4,4 +4,4 @@ type: 'blank'
 ---
 
 {{< breadcrumbs >}}
-{{< all_routes country=BE filterby=ref regex=A >}}
+{{< road_routes country=BE filterby=ref regex=A >}}

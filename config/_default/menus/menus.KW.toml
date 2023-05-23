@@ -1,0 +1,10 @@
+[[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/KW/road/"
+  weight = 1
+[[navbar]]
+  identifier = "subway"
+  name = "Subway"
+  url = "/KW/subway/"
+  weight = 1

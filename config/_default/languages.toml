@@ -3,38 +3,888 @@ contentDir = "content/homepage"
 languageName = "Homepage"
 weight = 1
 
-[US]
-contentDir = "content/US"
-languageName = "United States"
-languageCode = "US"
-weight = 1
-
-[CN]
-contentDir = "content/CN"
-languageName = "China/中国"
-languageCode = "CN"
-weight = 2
-
-[NL]
-contentDir = "content/NL"
-languageName = "Netherlands/Nederland"
-languageCode = "NL"
-weight = 2
-
+[AE]
+contentDir = "content/AE"
+languageName = "AE"
+languageCode = "AE"
+weight = 10
+[AF]
+contentDir = "content/AF"
+languageName = "AF"
+languageCode = "AF"
+weight = 10
+[AL]
+contentDir = "content/AL"
+languageName = "AL"
+languageCode = "AL"
+weight = 10
+[AM]
+contentDir = "content/AM"
+languageName = "AM"
+languageCode = "AM"
+weight = 10
+[AO]
+contentDir = "content/AO"
+languageName = "AO"
+languageCode = "AO"
+weight = 10
+[AR]
+contentDir = "content/AR"
+languageName = "AR"
+languageCode = "AR"
+weight = 10
+[AT]
+contentDir = "content/AT"
+languageName = "AT"
+languageCode = "AT"
+weight = 10
+[AU]
+contentDir = "content/AU"
+languageName = "AU"
+languageCode = "AU"
+weight = 10
+[AW]
+contentDir = "content/AW"
+languageName = "AW"
+languageCode = "AW"
+weight = 10
+[AX]
+contentDir = "content/AX"
+languageName = "AX"
+languageCode = "AX"
+weight = 10
+[AZ]
+contentDir = "content/AZ"
+languageName = "AZ"
+languageCode = "AZ"
+weight = 10
+[BA]
+contentDir = "content/BA"
+languageName = "BA"
+languageCode = "BA"
+weight = 10
+[BB]
+contentDir = "content/BB"
+languageName = "BB"
+languageCode = "BB"
+weight = 10
+[BD]
+contentDir = "content/BD"
+languageName = "BD"
+languageCode = "BD"
+weight = 10
 [BE]
 contentDir = "content/BE"
-languageName = "Belgium/Belgie"
+languageName = "BE"
 languageCode = "BE"
-weight = 2
-
+weight = 10
+[BF]
+contentDir = "content/BF"
+languageName = "BF"
+languageCode = "BF"
+weight = 10
+[BG]
+contentDir = "content/BG"
+languageName = "BG"
+languageCode = "BG"
+weight = 10
+[BI]
+contentDir = "content/BI"
+languageName = "BI"
+languageCode = "BI"
+weight = 10
+[BM]
+contentDir = "content/BM"
+languageName = "BM"
+languageCode = "BM"
+weight = 10
+[BN]
+contentDir = "content/BN"
+languageName = "BN"
+languageCode = "BN"
+weight = 10
+[BO]
+contentDir = "content/BO"
+languageName = "BO"
+languageCode = "BO"
+weight = 10
+[BR]
+contentDir = "content/BR"
+languageName = "BR"
+languageCode = "BR"
+weight = 10
+[BT]
+contentDir = "content/BT"
+languageName = "BT"
+languageCode = "BT"
+weight = 10
+[BW]
+contentDir = "content/BW"
+languageName = "BW"
+languageCode = "BW"
+weight = 10
+[BY]
+contentDir = "content/BY"
+languageName = "BY"
+languageCode = "BY"
+weight = 10
+[BZ]
+contentDir = "content/BZ"
+languageName = "BZ"
+languageCode = "BZ"
+weight = 10
+[CA]
+contentDir = "content/CA"
+languageName = "CA"
+languageCode = "CA"
+weight = 10
+[CD]
+contentDir = "content/CD"
+languageName = "CD"
+languageCode = "CD"
+weight = 10
+[CF]
+contentDir = "content/CF"
+languageName = "CF"
+languageCode = "CF"
+weight = 10
+[CG]
+contentDir = "content/CG"
+languageName = "CG"
+languageCode = "CG"
+weight = 10
+[CH]
+contentDir = "content/CH"
+languageName = "CH"
+languageCode = "CH"
+weight = 10
+[CI]
+contentDir = "content/CI"
+languageName = "CI"
+languageCode = "CI"
+weight = 10
+[CL]
+contentDir = "content/CL"
+languageName = "CL"
+languageCode = "CL"
+weight = 10
+[CM]
+contentDir = "content/CM"
+languageName = "CM"
+languageCode = "CM"
+weight = 10
+[CN]
+contentDir = "content/CN"
+languageName = "CN"
+languageCode = "CN"
+weight = 10
+[CO]
+contentDir = "content/CO"
+languageName = "CO"
+languageCode = "CO"
+weight = 10
+[CR]
+contentDir = "content/CR"
+languageName = "CR"
+languageCode = "CR"
+weight = 10
+[CU]
+contentDir = "content/CU"
+languageName = "CU"
+languageCode = "CU"
+weight = 10
+[CV]
+contentDir = "content/CV"
+languageName = "CV"
+languageCode = "CV"
+weight = 10
+[CW]
+contentDir = "content/CW"
+languageName = "CW"
+languageCode = "CW"
+weight = 10
+[CY]
+contentDir = "content/CY"
+languageName = "CY"
+languageCode = "CY"
+weight = 10
+[CZ]
+contentDir = "content/CZ"
+languageName = "CZ"
+languageCode = "CZ"
+weight = 10
 [DE]
 contentDir = "content/DE"
-languageName = "Germany"
-languageCode = "GE"
-weight = 2
-
+languageName = "DE"
+languageCode = "DE"
+weight = 10
+[DK]
+contentDir = "content/DK"
+languageName = "DK"
+languageCode = "DK"
+weight = 10
+[DO]
+contentDir = "content/DO"
+languageName = "DO"
+languageCode = "DO"
+weight = 10
+[DZ]
+contentDir = "content/DZ"
+languageName = "DZ"
+languageCode = "DZ"
+weight = 10
+[EC]
+contentDir = "content/EC"
+languageName = "EC"
+languageCode = "EC"
+weight = 10
+[EE]
+contentDir = "content/EE"
+languageName = "EE"
+languageCode = "EE"
+weight = 10
+[EG]
+contentDir = "content/EG"
+languageName = "EG"
+languageCode = "EG"
+weight = 10
+[EH]
+contentDir = "content/EH"
+languageName = "EH"
+languageCode = "EH"
+weight = 10
+[ER]
+contentDir = "content/ER"
+languageName = "ER"
+languageCode = "ER"
+weight = 10
+[ES]
+contentDir = "content/ES"
+languageName = "ES"
+languageCode = "ES"
+weight = 10
+[ET]
+contentDir = "content/ET"
+languageName = "ET"
+languageCode = "ET"
+weight = 10
+[FI]
+contentDir = "content/FI"
+languageName = "FI"
+languageCode = "FI"
+weight = 10
+[FK]
+contentDir = "content/FK"
+languageName = "FK"
+languageCode = "FK"
+weight = 10
+[FO]
+contentDir = "content/FO"
+languageName = "FO"
+languageCode = "FO"
+weight = 10
 [FR]
 contentDir = "content/FR"
-languageName = "France"
+languageName = "FR"
 languageCode = "FR"
-weight = 2
+weight = 10
+[GA]
+contentDir = "content/GA"
+languageName = "GA"
+languageCode = "GA"
+weight = 10
+[GB]
+contentDir = "content/GB"
+languageName = "GB"
+languageCode = "GB"
+weight = 10
+[GE]
+contentDir = "content/GE"
+languageName = "GE"
+languageCode = "GE"
+weight = 10
+[GG]
+contentDir = "content/GG"
+languageName = "GG"
+languageCode = "GG"
+weight = 10
+[GH]
+contentDir = "content/GH"
+languageName = "GH"
+languageCode = "GH"
+weight = 10
+[GI]
+contentDir = "content/GI"
+languageName = "GI"
+languageCode = "GI"
+weight = 10
+[GM]
+contentDir = "content/GM"
+languageName = "GM"
+languageCode = "GM"
+weight = 10
+[GN]
+contentDir = "content/GN"
+languageName = "GN"
+languageCode = "GN"
+weight = 10
+[GR]
+contentDir = "content/GR"
+languageName = "GR"
+languageCode = "GR"
+weight = 10
+[GT]
+contentDir = "content/GT"
+languageName = "GT"
+languageCode = "GT"
+weight = 10
+[GY]
+contentDir = "content/GY"
+languageName = "GY"
+languageCode = "GY"
+weight = 10
+[HK]
+contentDir = "content/HK"
+languageName = "HK"
+languageCode = "HK"
+weight = 10
+[HN]
+contentDir = "content/HN"
+languageName = "HN"
+languageCode = "HN"
+weight = 10
+[HR]
+contentDir = "content/HR"
+languageName = "HR"
+languageCode = "HR"
+weight = 10
+[HT]
+contentDir = "content/HT"
+languageName = "HT"
+languageCode = "HT"
+weight = 10
+[HU]
+contentDir = "content/HU"
+languageName = "HU"
+languageCode = "HU"
+weight = 10
+[ID]
+contentDir = "content/ID"
+languageName = "ID"
+languageCode = "ID"
+weight = 10
+[IE]
+contentDir = "content/IE"
+languageName = "IE"
+languageCode = "IE"
+weight = 10
+[IL]
+contentDir = "content/IL"
+languageName = "IL"
+languageCode = "IL"
+weight = 10
+[IM]
+contentDir = "content/IM"
+languageName = "IM"
+languageCode = "IM"
+weight = 10
+[IN]
+contentDir = "content/IN"
+languageName = "IN"
+languageCode = "IN"
+weight = 10
+[IQ]
+contentDir = "content/IQ"
+languageName = "IQ"
+languageCode = "IQ"
+weight = 10
+[IR]
+contentDir = "content/IR"
+languageName = "IR"
+languageCode = "IR"
+weight = 10
+[IS]
+contentDir = "content/IS"
+languageName = "IS"
+languageCode = "IS"
+weight = 10
+[IT]
+contentDir = "content/IT"
+languageName = "IT"
+languageCode = "IT"
+weight = 10
+[JE]
+contentDir = "content/JE"
+languageName = "JE"
+languageCode = "JE"
+weight = 10
+[JO]
+contentDir = "content/JO"
+languageName = "JO"
+languageCode = "JO"
+weight = 10
+[JP]
+contentDir = "content/JP"
+languageName = "JP"
+languageCode = "JP"
+weight = 10
+[KE]
+contentDir = "content/KE"
+languageName = "KE"
+languageCode = "KE"
+weight = 10
+[KG]
+contentDir = "content/KG"
+languageName = "KG"
+languageCode = "KG"
+weight = 10
+[KH]
+contentDir = "content/KH"
+languageName = "KH"
+languageCode = "KH"
+weight = 10
+[KP]
+contentDir = "content/KP"
+languageName = "KP"
+languageCode = "KP"
+weight = 10
+[KR]
+contentDir = "content/KR"
+languageName = "KR"
+languageCode = "KR"
+weight = 10
+[KW]
+contentDir = "content/KW"
+languageName = "KW"
+languageCode = "KW"
+weight = 10
+[KY]
+contentDir = "content/KY"
+languageName = "KY"
+languageCode = "KY"
+weight = 10
+[KZ]
+contentDir = "content/KZ"
+languageName = "KZ"
+languageCode = "KZ"
+weight = 10
+[LA]
+contentDir = "content/LA"
+languageName = "LA"
+languageCode = "LA"
+weight = 10
+[LB]
+contentDir = "content/LB"
+languageName = "LB"
+languageCode = "LB"
+weight = 10
+[LI]
+contentDir = "content/LI"
+languageName = "LI"
+languageCode = "LI"
+weight = 10
+[LK]
+contentDir = "content/LK"
+languageName = "LK"
+languageCode = "LK"
+weight = 10
+[LS]
+contentDir = "content/LS"
+languageName = "LS"
+languageCode = "LS"
+weight = 10
+[LT]
+contentDir = "content/LT"
+languageName = "LT"
+languageCode = "LT"
+weight = 10
+[LU]
+contentDir = "content/LU"
+languageName = "LU"
+languageCode = "LU"
+weight = 10
+[LV]
+contentDir = "content/LV"
+languageName = "LV"
+languageCode = "LV"
+weight = 10
+[LY]
+contentDir = "content/LY"
+languageName = "LY"
+languageCode = "LY"
+weight = 10
+[MA]
+contentDir = "content/MA"
+languageName = "MA"
+languageCode = "MA"
+weight = 10
+[MC]
+contentDir = "content/MC"
+languageName = "MC"
+languageCode = "MC"
+weight = 10
+[MD]
+contentDir = "content/MD"
+languageName = "MD"
+languageCode = "MD"
+weight = 10
+[ME]
+contentDir = "content/ME"
+languageName = "ME"
+languageCode = "ME"
+weight = 10
+[MG]
+contentDir = "content/MG"
+languageName = "MG"
+languageCode = "MG"
+weight = 10
+[MK]
+contentDir = "content/MK"
+languageName = "MK"
+languageCode = "MK"
+weight = 10
+[ML]
+contentDir = "content/ML"
+languageName = "ML"
+languageCode = "ML"
+weight = 10
+[MM]
+contentDir = "content/MM"
+languageName = "MM"
+languageCode = "MM"
+weight = 10
+[MN]
+contentDir = "content/MN"
+languageName = "MN"
+languageCode = "MN"
+weight = 10
+[MO]
+contentDir = "content/MO"
+languageName = "MO"
+languageCode = "MO"
+weight = 10
+[MR]
+contentDir = "content/MR"
+languageName = "MR"
+languageCode = "MR"
+weight = 10
+[MT]
+contentDir = "content/MT"
+languageName = "MT"
+languageCode = "MT"
+weight = 10
+[MU]
+contentDir = "content/MU"
+languageName = "MU"
+languageCode = "MU"
+weight = 10
+[MX]
+contentDir = "content/MX"
+languageName = "MX"
+languageCode = "MX"
+weight = 10
+[MY]
+contentDir = "content/MY"
+languageName = "MY"
+languageCode = "MY"
+weight = 10
+[MZ]
+contentDir = "content/MZ"
+languageName = "MZ"
+languageCode = "MZ"
+weight = 10
+[NA]
+contentDir = "content/NA"
+languageName = "NA"
+languageCode = "NA"
+weight = 10
+[NC]
+contentDir = "content/NC"
+languageName = "NC"
+languageCode = "NC"
+weight = 10
+[NE]
+contentDir = "content/NE"
+languageName = "NE"
+languageCode = "NE"
+weight = 10
+[NG]
+contentDir = "content/NG"
+languageName = "NG"
+languageCode = "NG"
+weight = 10
+[NI]
+contentDir = "content/NI"
+languageName = "NI"
+languageCode = "NI"
+weight = 10
+[NL]
+contentDir = "content/NL"
+languageName = "NL"
+languageCode = "NL"
+weight = 10
+[NO]
+contentDir = "content/NO"
+languageName = "NO"
+languageCode = "NO"
+weight = 10
+[NP]
+contentDir = "content/NP"
+languageName = "NP"
+languageCode = "NP"
+weight = 10
+[NZ]
+contentDir = "content/NZ"
+languageName = "NZ"
+languageCode = "NZ"
+weight = 10
+[OM]
+contentDir = "content/OM"
+languageName = "OM"
+languageCode = "OM"
+weight = 10
+[PA]
+contentDir = "content/PA"
+languageName = "PA"
+languageCode = "PA"
+weight = 10
+[PE]
+contentDir = "content/PE"
+languageName = "PE"
+languageCode = "PE"
+weight = 10
+[PF]
+contentDir = "content/PF"
+languageName = "PF"
+languageCode = "PF"
+weight = 10
+[PH]
+contentDir = "content/PH"
+languageName = "PH"
+languageCode = "PH"
+weight = 10
+[PK]
+contentDir = "content/PK"
+languageName = "PK"
+languageCode = "PK"
+weight = 10
+[PL]
+contentDir = "content/PL"
+languageName = "PL"
+languageCode = "PL"
+weight = 10
+[PM]
+contentDir = "content/PM"
+languageName = "PM"
+languageCode = "PM"
+weight = 10
+[PR]
+contentDir = "content/PR"
+languageName = "PR"
+languageCode = "PR"
+weight = 10
+[PS]
+contentDir = "content/PS"
+languageName = "PS"
+languageCode = "PS"
+weight = 10
+[PT]
+contentDir = "content/PT"
+languageName = "PT"
+languageCode = "PT"
+weight = 10
+[PY]
+contentDir = "content/PY"
+languageName = "PY"
+languageCode = "PY"
+weight = 10
+[QA]
+contentDir = "content/QA"
+languageName = "QA"
+languageCode = "QA"
+weight = 10
+[RO]
+contentDir = "content/RO"
+languageName = "RO"
+languageCode = "RO"
+weight = 10
+[RS]
+contentDir = "content/RS"
+languageName = "RS"
+languageCode = "RS"
+weight = 10
+[RU]
+contentDir = "content/RU"
+languageName = "RU"
+languageCode = "RU"
+weight = 10
+[RW]
+contentDir = "content/RW"
+languageName = "RW"
+languageCode = "RW"
+weight = 10
+[SA]
+contentDir = "content/SA"
+languageName = "SA"
+languageCode = "SA"
+weight = 10
+[SC]
+contentDir = "content/SC"
+languageName = "SC"
+languageCode = "SC"
+weight = 10
+[SD]
+contentDir = "content/SD"
+languageName = "SD"
+languageCode = "SD"
+weight = 10
+[SE]
+contentDir = "content/SE"
+languageName = "SE"
+languageCode = "SE"
+weight = 10
+[SG]
+contentDir = "content/SG"
+languageName = "SG"
+languageCode = "SG"
+weight = 10
+[SI]
+contentDir = "content/SI"
+languageName = "SI"
+languageCode = "SI"
+weight = 10
+[SK]
+contentDir = "content/SK"
+languageName = "SK"
+languageCode = "SK"
+weight = 10
+[SM]
+contentDir = "content/SM"
+languageName = "SM"
+languageCode = "SM"
+weight = 10
+[SN]
+contentDir = "content/SN"
+languageName = "SN"
+languageCode = "SN"
+weight = 10
+[SS]
+contentDir = "content/SS"
+languageName = "SS"
+languageCode = "SS"
+weight = 10
+[SV]
+contentDir = "content/SV"
+languageName = "SV"
+languageCode = "SV"
+weight = 10
+[SY]
+contentDir = "content/SY"
+languageName = "SY"
+languageCode = "SY"
+weight = 10
+[SZ]
+contentDir = "content/SZ"
+languageName = "SZ"
+languageCode = "SZ"
+weight = 10
+[TG]
+contentDir = "content/TG"
+languageName = "TG"
+languageCode = "TG"
+weight = 10
+[TH]
+contentDir = "content/TH"
+languageName = "TH"
+languageCode = "TH"
+weight = 10
+[TJ]
+contentDir = "content/TJ"
+languageName = "TJ"
+languageCode = "TJ"
+weight = 10
+[TL]
+contentDir = "content/TL"
+languageName = "TL"
+languageCode = "TL"
+weight = 10
+[TM]
+contentDir = "content/TM"
+languageName = "TM"
+languageCode = "TM"
+weight = 10
+[TN]
+contentDir = "content/TN"
+languageName = "TN"
+languageCode = "TN"
+weight = 10
+[TR]
+contentDir = "content/TR"
+languageName = "TR"
+languageCode = "TR"
+weight = 10
+[TW]
+contentDir = "content/TW"
+languageName = "TW"
+languageCode = "TW"
+weight = 10
+[TZ]
+contentDir = "content/TZ"
+languageName = "TZ"
+languageCode = "TZ"
+weight = 10
+[UA]
+contentDir = "content/UA"
+languageName = "UA"
+languageCode = "UA"
+weight = 10
+[UG]
+contentDir = "content/UG"
+languageName = "UG"
+languageCode = "UG"
+weight = 10
+[UK]
+contentDir = "content/UK"
+languageName = "UK"
+languageCode = "UK"
+weight = 10
+[US]
+contentDir = "content/US"
+languageName = "US"
+languageCode = "US"
+weight = 10
+[UY]
+contentDir = "content/UY"
+languageName = "UY"
+languageCode = "UY"
+weight = 10
+[UZ]
+contentDir = "content/UZ"
+languageName = "UZ"
+languageCode = "UZ"
+weight = 10
+[VE]
+contentDir = "content/VE"
+languageName = "VE"
+languageCode = "VE"
+weight = 10
+[VN]
+contentDir = "content/VN"
+languageName = "VN"
+languageCode = "VN"
+weight = 10
+[ZA]
+contentDir = "content/ZA"
+languageName = "ZA"
+languageCode = "ZA"
+weight = 10
+[ZM]
+contentDir = "content/ZM"
+languageName = "ZM"
+languageCode = "ZM"
+weight = 10
+[ZW]
+contentDir = "content/ZW"
+languageName = "ZW"
+languageCode = "ZW"
+weight = 10

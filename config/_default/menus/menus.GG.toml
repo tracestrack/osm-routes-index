@@ -1,0 +1,5 @@
+[[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/GG/bus/"
+  weight = 1

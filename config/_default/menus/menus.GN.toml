@@ -1,0 +1,5 @@
+[[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/GN/road/"
+  weight = 1

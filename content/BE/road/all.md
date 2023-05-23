@@ -1,7 +1,8 @@
 ---
-title: All road routes in Belgium
+title: 'All road routes in BE'
 type: 'blank'
+date: "2023-01-01"
 ---
 
 {{< breadcrumbs >}}
-{{< all_routes country=BE >}}
+{{< road_routes country=BE >}}

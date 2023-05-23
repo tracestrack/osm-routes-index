@@ -1,29 +1,25 @@
 [[navbar]]
   identifier = "road"
-  name = "公路"
-  url = "/cn/road/"
+  name = "Road"
+  url = "/CN/road/"
   weight = 1
-
-[[navbar]]
-  identifier = "railway"
-  name = "铁路"
-  url = "/cn/railway/"
-  weight = 2
-
-[[navbar]]
-  identifier = "train"
-  name = "火车"
-  url = "/cn/train/"
-  weight = 2
-
-[[navbar]]
-  identifier = "subway"
-  name = "地铁"
-  url = "/cn/subway/"
-  weight = 3
-
 [[navbar]]
   identifier = "bus"
-  name = "公交"
-  url = "/cn/bus/"
-  weight = 4
+  name = "Bus"
+  url = "/CN/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "subway"
+  name = "Subway"
+  url = "/CN/subway/"
+  weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/CN/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/CN/railway/"
+  weight = 1

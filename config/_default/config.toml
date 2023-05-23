@@ -1,10 +1,10 @@
 baseURL = "https://osm-routes-index.pages.dev/"
 languageCode = "en"
-title = "Monochrome"
+title = "OpenStreetMap Routes Index"
 theme = "hugo-theme-monochrome"
 defaultContentLanguage = "homepage"
 enableEmoji = true
-paginate = 5
+paginate = 20
 
 [taxonomies]
 category = "categories"

@@ -1,0 +1,5 @@
+[[navbar]]
+  identifier = "subway"
+  name = "Subway"
+  url = "/cn/subway/"
+  weight = 1

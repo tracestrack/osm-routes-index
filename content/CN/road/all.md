@@ -1,8 +1,8 @@
 ---
-title: '全部'
+title: 'All road routes in CN'
 type: 'blank'
 date: "2023-01-01"
 ---
 
 {{< breadcrumbs >}}
-{{< all_routes country=CN >}}
+{{< road_routes country=CN >}}
