@@ -1,4 +1,4 @@
-baseURL = "https://osm-routes-index.pages.dev/"
+baseURL = "https://routes.tracestrack.com/"
 languageCode = "en"
 title = "OpenStreetMap Routes Index"
 theme = "hugo-theme-monochrome"
