@@ -23,3 +23,18 @@
   name = "Railway"
   url = "/CZ/railway/"
   weight = 1
+[[navbar]]
+  identifier = "bicycle"
+  name = "Bicycle"
+  url = "/CZ/bicycle/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/CZ/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "horse"
+  name = "Horse"
+  url = "/CZ/horse/"
+  weight = 1

@@ -18,3 +18,8 @@
   name = "Train"
   url = "/MX/train/"
   weight = 1
+[[navbar]]
+  identifier = "bicycle"
+  name = "Bicycle"
+  url = "/MX/bicycle/"
+  weight = 1

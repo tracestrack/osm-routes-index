@@ -23,3 +23,13 @@
   name = "Railway"
   url = "/JP/railway/"
   weight = 1
+[[navbar]]
+  identifier = "bicycle"
+  name = "Bicycle"
+  url = "/JP/bicycle/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/JP/hiking/"
+  weight = 1

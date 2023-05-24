@@ -1,0 +1,13 @@
+<div id='main'>Loading</div>
+<script src="/js/all_routes.js"></script>
+<script>
+var filterby = "{{ .Get "filterby" }}";
+var regex = new RegExp("{{ .Get "regex" }}","ig");
+fetch("/bicycle_routes/{{ .Get "country" }}.json")
+  .then((res) => {
+    return res.json();
+  })
+  .then((data) => {
+    show(data, filterby, regex)
+});
+</script>
