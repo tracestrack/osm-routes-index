@@ -6,3 +6,6 @@ for sql in (ls *.sql)
     echo $dname
     ./create_json_routes_db.js $sql.results $dname
 end
+
+rm -rf ../static/*_routes
+mv *_routes ../static/
