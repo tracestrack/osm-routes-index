@@ -15,7 +15,7 @@ function show(data, filterby, regex) {
 
   for (var i in sorted_arr) {
     let osm_id = sorted_arr[i]['id'];
-    let link = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}'>iD</a>`;
+    let link = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}' title='Edit in iD'>iD</a><button onclick="fetch('http://localhost:8111/load_object?new_layer=false&relation_members=true&objects=r${osm_id}')" title='Edit in JOSM'>JOSM</a>`;
     let wikipedia = sorted_arr[i]['wikipedia'] ?? '';
     wikipedia_link = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikipedia}">${wikipedia}</a>`;
     let wikidata = sorted_arr[i]['wikidata'] ?? '';
