@@ -14,7 +14,7 @@ route relations in OpenStreetMap, organized by country.
 3. Route database is synced everyday.
 4. Two type of shortcodes at the moment: 1) list routes based on a tag
    [[example: New York City Subway](us/subway/newyork/),
-   [source](https://github.com/tracestrack/osm-routes-index/blob/main/content/us/subway/newyork.md?plain=1)]
+   [source](https://github.com/tracestrack/osm-routes-index/blob/main/content/US/subway/newyork.md?plain=1)]
    2) reference route tags in markdown [[example: Radial Expressways in Beijing](cn/road/国家高速公路分类汇总/首都放射/), [source](https://github.com/tracestrack/osm-routes-index/blob/main/content/CN/road/国家高速公路分类汇总/首都放射.md?plain=1)].
 
 ## Actively maintained subsites
