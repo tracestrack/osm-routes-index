@@ -1,5 +1,6 @@
-function show(data, filterby, regex) {
-  var html = '<table class="mc-table"><tr><td></td><td>ref</td><td>OSM ID</td><td>name</td><td>from</td><td>to</td><td>distance</td><td>network</td><td>note</td><td>wikipedia</td><td>wikidata</td></tr>';
+function show(data, filterby, regex, taglist) {
+  let s = taglist.map(tag => {return `<td>${tag}</td>`}).join("")
+  var html = '<table class="mc-table"><tr><td></td>' + s + '</tr>';
   var tmp_arr = []
   for (var osm_id in data) {
     if (filterby != '') {
@@ -14,20 +15,18 @@ function show(data, filterby, regex) {
   let sorted_arr = tmp_arr.sort((a, b) => {return coalesceInt(a.ref) > coalesceInt(b.ref)});
 
   for (var i in sorted_arr) {
-    let osm_id = sorted_arr[i]['id'];
-    let link = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}' title='Edit in iD'>iD</a><button onclick="fetch('http://localhost:8111/load_object?new_layer=false&relation_members=true&objects=r${osm_id}')" title='Edit in JOSM'>JOSM</a>`;
+    let ele = sorted_arr[i];
+    let osm_id = ele['id'];
+    ele['id'] = `<a target='_blank' href='https://www.openstreetmap.org/relation/${osm_id}'>${osm_id}</a> <a target=_blank href='https://www.openstreetmap.org/edit?relation=${osm_id}' title='Edit in iD'>iD</a><button onclick="fetch('http://localhost:8111/load_object?new_layer=false&relation_members=true&objects=r${osm_id}')" title='Edit in JOSM'>JOSM</a>`;
     let wikipedia = sorted_arr[i]['wikipedia'] ?? '';
-    wikipedia_link = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikipedia}">${wikipedia}</a>`;
+    ele['wikipedia'] = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikipedia}">${wikipedia}</a>`;
     let wikidata = sorted_arr[i]['wikidata'] ?? '';
-    wikidata_link = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikidata}">${wikidata}</a>`;
+    ele['wikidata'] = `<a target='_blank' href="https://www.wikidata.org/wiki/${wikidata}">${wikidata}</a>`;
+
+    ele['colour'] = `<span style="background: ${ele['colour']}">${ele['colour'] ?? ''}</span>`;
 
     html +=
-      `<tr><td>${i}</td><td>${sorted_arr[i]['ref']}</td><td>${link}</td><td>${sorted_arr[i]['name']}</td><td>${sorted_arr[i]['from']
-    ?? ''}</td><td>${sorted_arr[i]['to'] ??
-    ''}</td><td>${sorted_arr[i]['distance'] ??
-    ''}</td><td>${sorted_arr[i]['network'] ?? ''}</td><td>${sorted_arr[i]['note']
-    ?? ''}</td><td>${wikipedia_link ??
-    ''}</td><td>${wikidata_link ?? ''}</td></tr>`;
+      `<tr><td>${i}</td>` + taglist.map(tag => {return `<td>${ele[tag] ?? ""}</td>`}).join("") + `</tr>`;
   }
 
   html += '</table>';

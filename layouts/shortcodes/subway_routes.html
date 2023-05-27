@@ -3,11 +3,13 @@
 <script>
 var filterby = "{{ .Get "filterby" }}";
 var regex = new RegExp("{{ .Get "regex" }}","ig");
+let taglist = ['id', 'ref', 'route', 'name', 'colour', 'from', 'to', 'network', 'wikipedia', 'wikidata', 'note'];
 fetch("/subway_routes/{{ .Get "country" }}.json")
   .then((res) => {
     return res.json();
   })
   .then((data) => {
-    show(data, filterby, regex)
+
+    show(data, filterby, regex, taglist)
 });
 </script>
