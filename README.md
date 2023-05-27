@@ -1,16 +1,16 @@
-# HighwayRouteDB
+# OpenStreetMap Routes Index
 
 ## What?
 
-In this project we want to provide an index of road routes per
-country so that users can find a specific route. It roughly replaces the wiki
-page for example [China Expressways](https://wiki.openstreetmap.org/wiki/China/Transport/Expressways).
+This project attemps to make route relations in OpenStreetMap more visible and
+useful by listing certain routes based on country and tag criteria. For example
+it's easy to create a table listing all bus routes from a certain station.
 
-## How?
+## Route database
 
-If you have set up an OpenStreetMap database as described in
+If you have a working OpenStreetMap database as described in
 [gravitystorm/openstreetmap-carto](https://github.com/gravitystorm/openstreetmap-carto),
-you can dump the route relations with following SQL:
+you can dump the road routes with following SQL:
 
 ```
 select a.id, ST_AsText(ST_Transform(ST_PointOnSurface(b.way),
@@ -19,6 +19,6 @@ substring(a.members[1], 2)::BIGINT = b.osm_id where a.tags::hstore->'route' in
 ('road') and a.tags::hstore ? 'name' and a.tags::hstore ? 'ref'
 ```
 
-It contains the route relation ID, tags, a random coordinate of the route (can be used in
-reverse geocoding to find country). An output can be found in this repo with
-filename "all_road_route.tar.gz".
+It contains the route relation ID, tags, a random coordinate of the route (can
+be reverse geocoded to find country). There is a script in `generator` folder to
+dump all route relations and classify the routes into countries.
