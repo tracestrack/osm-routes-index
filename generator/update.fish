@@ -9,3 +9,4 @@ end
 
 rm -rf ../static/*_routes
 mv *_routes ../static/
+./updatedate
