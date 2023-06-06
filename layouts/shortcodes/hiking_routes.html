@@ -3,7 +3,7 @@
 <script>
 var filterby = "{{ .Get "filterby" }}";
 var regex = new RegExp("{{ .Get "regex" }}","ig");
-let taglist = ['id', 'ref', 'name', 'from', 'to', 'distance', 'network', 'wikipedia', 'wikidata', 'note'];
+let taglist = ['id', 'route', 'ref', 'name', 'from', 'to', 'distance', 'network', 'wikipedia', 'wikidata', 'note'];
 fetch("/hiking_routes/{{ .Get "country" }}.json")
   .then((res) => {
     return res.json();
