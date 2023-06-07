@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+
+set d (date)
+cat ../config/_default/params.toml.template |sed "s/{lastupdate}/$d/" > ../config/_default/params.toml

@@ -1,1 +1,1 @@
-{"7168260":{"ref":"Congo-Océan","name":"Ligne de la COMILOG","type":"route","route":"railway","usage":"main","operator":"CFCO"}}
+{"1789163":{"name":"Ligne de Chemin de Fer Congo-Océan","type":"route","route":"railway","usage":"main","network":"Congo-Océan","operator":"CFCO"},"7168260":{"ref":"Congo-Océan","name":"Ligne de la COMILOG","type":"route","route":"railway","usage":"main","operator":"CFCO"},"8358716":{"name":"Réalignement Chemin de Fer Congo-Océan","type":"route","gauge":"1067","route":"railway","electrified":"no"}}
