@@ -22,3 +22,12 @@ substring(a.members[1], 2)::BIGINT = b.osm_id where a.tags::hstore->'route' in
 It contains the route relation ID, tags, a random coordinate of the route (can
 be reverse geocoded to find country). There is a script in `generator` folder to
 dump all route relations and classify the routes into countries.
+
+## Build locally
+
+The database is self-contained in the git repository. You only need to install
+`hugo` to build the blog locally. To the the complete installation guide, please
+visit [Hugo Installation](https://gohugo.io/installation/). Note you'll need the
+*extended* version.
+
+If you are on macOS, `brew install hugo` will be enough.

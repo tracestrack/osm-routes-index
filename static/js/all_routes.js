@@ -1,6 +1,7 @@
 function show(data, filterby, regex, taglist) {
   let s = taglist.map(tag => {return `<td>${tag}</td>`}).join("")
-  var html = '<table class="mc-table"><tr><td></td>' + s + '</tr>';
+  var html = `Filtered by tag <code>${filterby}</code> with regex <code>${regex}</code>`;
+  html += '<table class="mc-table"><tr><td></td>' + s + '</tr>';
   var tmp_arr = []
   for (var osm_id in data) {
     if (filterby != '') {
