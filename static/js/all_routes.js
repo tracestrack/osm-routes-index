@@ -1,6 +1,6 @@
 function show(data, filterby, regex, taglist) {
   let s = taglist.map(tag => {return `<td>${tag}</td>`}).join("")
-  var html = `Filtered by tag <code>${filterby}</code> with regex <code>${regex}</code>`;
+  var html = filterby == '' ? '' : `Filtered by tag <code>${filterby}</code> with regex <code>${regex}</code>`;
   html += '<table class="mc-table"><tr><td></td>' + s + '</tr>';
   var tmp_arr = []
   for (var osm_id in data) {
@@ -27,7 +27,7 @@ function show(data, filterby, regex, taglist) {
     ele['colour'] = `<span style="background: ${ele['colour']}">${ele['colour'] ?? ''}</span>`;
 
     html +=
-      `<tr><td>${i}</td>` + taglist.map(tag => {return `<td>${ele[tag] ?? ""}</td>`}).join("") + `</tr>`;
+      `<tr><td>${i}</td>` + taglist.map(tag => {return `<td><div style='max-width: 150px;'>${ele[tag] ?? ""}</div></td>`}).join("") + `</tr>`;
   }
 
   html += '</table>';
