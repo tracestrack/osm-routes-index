@@ -27,7 +27,7 @@ function show(data, filterby, regex, taglist) {
     ele['colour'] = `<span style="background: ${ele['colour']}">${ele['colour'] ?? ''}</span>`;
 
     html +=
-      `<tr><td>${i}</td>` + taglist.map(tag => {return `<td><div style='max-width: 150px;'>${ele[tag] ?? ""}</div></td>`}).join("") + `</tr>`;
+      `<tr><td>${i}</td>` + taglist.map(tag => {return `<td><div style='max-width: 170px;word-break: break-all;'>${ele[tag] ?? ""}</div></td>`}).join("") + `</tr>`;
   }
 
   html += '</table>';
