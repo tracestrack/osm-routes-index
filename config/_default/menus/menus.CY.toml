@@ -13,3 +13,8 @@
   name = "Bicycle"
   url = "/CY/bicycle/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/CY/hiking/"
+  weight = 1

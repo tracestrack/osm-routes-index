@@ -28,3 +28,13 @@
   name = "Bicycle"
   url = "/CL/bicycle/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/CL/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/CL/ferry/"
+  weight = 1

@@ -14,7 +14,22 @@
   url = "/CR/train/"
   weight = 1
 [[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/CR/railway/"
+  weight = 1
+[[navbar]]
   identifier = "bicycle"
   name = "Bicycle"
   url = "/CR/bicycle/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/CR/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/CR/ferry/"
   weight = 1

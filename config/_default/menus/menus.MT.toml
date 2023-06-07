@@ -8,3 +8,13 @@
   name = "Bicycle"
   url = "/MT/bicycle/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/MT/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/MT/ferry/"
+  weight = 1

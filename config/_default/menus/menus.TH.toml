@@ -18,3 +18,13 @@
   name = "Train"
   url = "/TH/train/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/TH/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/TH/ferry/"
+  weight = 1

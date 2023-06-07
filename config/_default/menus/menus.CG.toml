@@ -4,6 +4,11 @@
   url = "/CG/road/"
   weight = 1
 [[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/CG/train/"
+  weight = 1
+[[navbar]]
   identifier = "railway"
   name = "Railway"
   url = "/CG/railway/"

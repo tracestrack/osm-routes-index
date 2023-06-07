@@ -3,3 +3,8 @@
   name = "Road"
   url = "/CF/road/"
   weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/CF/railway/"
+  weight = 1

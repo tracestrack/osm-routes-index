@@ -1,7 +1,17 @@
 [[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/JO/road/"
+  weight = 1
+[[navbar]]
   identifier = "bus"
   name = "Bus"
   url = "/JO/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/JO/railway/"
   weight = 1
 [[navbar]]
   identifier = "hiking"

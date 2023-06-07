@@ -33,3 +33,7 @@ end
 for i in (ls ../../../static/horse_routes)
     cat horse |sed "s/cn/$i/g" |sed 's/.json//g' >> menus.$i.toml
 end
+
+for i in (ls ../../../static/ferry_routes)
+    cat ferry |sed "s/cn/$i/g" |sed 's/.json//g' >> menus.$i.toml
+end

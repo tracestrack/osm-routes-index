@@ -8,3 +8,13 @@
   name = "Bus"
   url = "/MG/bus/"
   weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/MG/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/MG/railway/"
+  weight = 1

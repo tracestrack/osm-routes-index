@@ -3,3 +3,8 @@
   name = "Road"
   url = "/TM/road/"
   weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/TM/railway/"
+  weight = 1

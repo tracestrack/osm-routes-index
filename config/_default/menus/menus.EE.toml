@@ -14,7 +14,22 @@
   url = "/EE/train/"
   weight = 1
 [[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/EE/railway/"
+  weight = 1
+[[navbar]]
   identifier = "bicycle"
   name = "Bicycle"
   url = "/EE/bicycle/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/EE/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/EE/ferry/"
   weight = 1

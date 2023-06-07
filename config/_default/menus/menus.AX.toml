@@ -8,3 +8,13 @@
   name = "Bus"
   url = "/AX/bus/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/AX/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/AX/ferry/"
+  weight = 1

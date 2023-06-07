@@ -1,0 +1,14 @@
+<div id='main'>Loading</div>
+<script src="/js/all_routes.js"></script>
+<script>
+var filterby = "{{ .Get "filterby" }}";
+var regex = new RegExp("{{ .Get "regex" }}","ig");
+let taglist = ['id', 'ref', 'name', 'from', 'to', 'network','operator', 'note', 'description'];
+fetch("/ferry_routes/{{ .Get "country" }}.json")
+  .then((res) => {
+    return res.json();
+  })
+  .then((data) => {
+    show(data, filterby, regex, taglist)
+});
+</script>

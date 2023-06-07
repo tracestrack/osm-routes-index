@@ -1,0 +1,20 @@
+[[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/MW/road/"
+  weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/MW/train/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/MW/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/MW/ferry/"
+  weight = 1

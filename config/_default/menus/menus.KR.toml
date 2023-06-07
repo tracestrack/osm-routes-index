@@ -23,3 +23,13 @@
   name = "Railway"
   url = "/KR/railway/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/KR/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/KR/ferry/"
+  weight = 1

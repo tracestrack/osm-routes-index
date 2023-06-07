@@ -8,3 +8,23 @@
   name = "Bus"
   url = "/CD/bus/"
   weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/CD/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/CD/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/CD/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/CD/ferry/"
+  weight = 1

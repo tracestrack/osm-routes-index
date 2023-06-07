@@ -3,3 +3,18 @@
   name = "Bus"
   url = "/MO/bus/"
   weight = 1
+[[navbar]]
+  identifier = "subway"
+  name = "Subway"
+  url = "/MO/subway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/MO/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/MO/ferry/"
+  weight = 1

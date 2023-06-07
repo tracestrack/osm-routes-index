@@ -9,6 +9,11 @@
   url = "/-/bus/"
   weight = 1
 [[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/-/train/"
+  weight = 1
+[[navbar]]
   identifier = "railway"
   name = "Railway"
   url = "/-/railway/"

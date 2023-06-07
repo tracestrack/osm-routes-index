@@ -28,3 +28,18 @@
   name = "Bicycle"
   url = "/PH/bicycle/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/PH/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "horse"
+  name = "Horse"
+  url = "/PH/horse/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/PH/ferry/"
+  weight = 1

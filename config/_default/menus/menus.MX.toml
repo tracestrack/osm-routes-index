@@ -19,7 +19,22 @@
   url = "/MX/train/"
   weight = 1
 [[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/MX/railway/"
+  weight = 1
+[[navbar]]
   identifier = "bicycle"
   name = "Bicycle"
   url = "/MX/bicycle/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/MX/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/MX/ferry/"
   weight = 1

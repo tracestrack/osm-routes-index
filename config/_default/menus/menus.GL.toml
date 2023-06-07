@@ -1,0 +1,5 @@
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/GL/hiking/"
+  weight = 1

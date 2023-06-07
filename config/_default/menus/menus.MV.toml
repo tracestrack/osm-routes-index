@@ -1,0 +1,5 @@
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/MV/ferry/"
+  weight = 1

@@ -33,3 +33,13 @@
   name = "Hiking"
   url = "/GR/hiking/"
   weight = 1
+[[navbar]]
+  identifier = "horse"
+  name = "Horse"
+  url = "/GR/horse/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/GR/ferry/"
+  weight = 1

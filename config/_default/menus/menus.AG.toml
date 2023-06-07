@@ -1,0 +1,5 @@
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/AG/hiking/"
+  weight = 1

@@ -1,7 +1,17 @@
 [[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/GH/road/"
+  weight = 1
+[[navbar]]
   identifier = "bus"
   name = "Bus"
   url = "/GH/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/GH/train/"
   weight = 1
 [[navbar]]
   identifier = "railway"

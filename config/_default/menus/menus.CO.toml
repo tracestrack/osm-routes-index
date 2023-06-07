@@ -14,6 +14,16 @@
   url = "/CO/subway/"
   weight = 1
 [[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/CO/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/CO/railway/"
+  weight = 1
+[[navbar]]
   identifier = "bicycle"
   name = "Bicycle"
   url = "/CO/bicycle/"

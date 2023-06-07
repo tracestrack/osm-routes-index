@@ -13,3 +13,13 @@
   name = "Train"
   url = "/CM/train/"
   weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/CM/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/CM/hiking/"
+  weight = 1

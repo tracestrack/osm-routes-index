@@ -13,3 +13,18 @@
   name = "Subway"
   url = "/ET/subway/"
   weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/ET/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/ET/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/ET/ferry/"
+  weight = 1

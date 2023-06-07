@@ -3,3 +3,13 @@
   name = "Road"
   url = "/HT/road/"
   weight = 1
+[[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/HT/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/HT/hiking/"
+  weight = 1

@@ -1,5 +1,20 @@
 [[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/ML/road/"
+  weight = 1
+[[navbar]]
   identifier = "bus"
   name = "Bus"
   url = "/ML/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/ML/train/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/ML/ferry/"
   weight = 1

@@ -1,0 +1,10 @@
+[[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/PG/road/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/PG/hiking/"
+  weight = 1

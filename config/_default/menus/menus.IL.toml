@@ -9,7 +9,22 @@
   url = "/IL/bus/"
   weight = 1
 [[navbar]]
+  identifier = "subway"
+  name = "Subway"
+  url = "/IL/subway/"
+  weight = 1
+[[navbar]]
   identifier = "train"
   name = "Train"
   url = "/IL/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/IL/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/IL/hiking/"
   weight = 1

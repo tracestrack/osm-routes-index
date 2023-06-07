@@ -1,0 +1,10 @@
+[[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/AD/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/AD/hiking/"
+  weight = 1

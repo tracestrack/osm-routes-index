@@ -19,6 +19,11 @@
   url = "/TR/train/"
   weight = 1
 [[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/TR/railway/"
+  weight = 1
+[[navbar]]
   identifier = "bicycle"
   name = "Bicycle"
   url = "/TR/bicycle/"
@@ -27,4 +32,9 @@
   identifier = "hiking"
   name = "Hiking"
   url = "/TR/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/TR/ferry/"
   weight = 1

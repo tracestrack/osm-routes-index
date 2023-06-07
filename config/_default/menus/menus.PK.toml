@@ -4,6 +4,11 @@
   url = "/PK/road/"
   weight = 1
 [[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/PK/bus/"
+  weight = 1
+[[navbar]]
   identifier = "subway"
   name = "Subway"
   url = "/PK/subway/"
@@ -12,4 +17,9 @@
   identifier = "train"
   name = "Train"
   url = "/PK/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/PK/railway/"
   weight = 1

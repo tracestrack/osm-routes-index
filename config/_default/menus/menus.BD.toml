@@ -13,3 +13,23 @@
   name = "Subway"
   url = "/BD/subway/"
   weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/BD/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/BD/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/BD/hiking/"
+  weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/BD/ferry/"
+  weight = 1

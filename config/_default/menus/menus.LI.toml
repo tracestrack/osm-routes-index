@@ -8,3 +8,8 @@
   name = "Bicycle"
   url = "/LI/bicycle/"
   weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/LI/hiking/"
+  weight = 1

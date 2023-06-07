@@ -4,7 +4,17 @@
   url = "/MN/road/"
   weight = 1
 [[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/MN/bus/"
+  weight = 1
+[[navbar]]
   identifier = "train"
   name = "Train"
   url = "/MN/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/MN/railway/"
   weight = 1

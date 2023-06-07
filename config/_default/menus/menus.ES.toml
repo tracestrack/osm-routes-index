@@ -38,3 +38,8 @@
   name = "Horse"
   url = "/ES/horse/"
   weight = 1
+[[navbar]]
+  identifier = "ferry"
+  name = "Ferry"
+  url = "/ES/ferry/"
+  weight = 1

@@ -1,5 +1,25 @@
 [[navbar]]
+  identifier = "road"
+  name = "Road"
+  url = "/TZ/road/"
+  weight = 1
+[[navbar]]
   identifier = "bus"
   name = "Bus"
   url = "/TZ/bus/"
+  weight = 1
+[[navbar]]
+  identifier = "train"
+  name = "Train"
+  url = "/TZ/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/TZ/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/TZ/hiking/"
   weight = 1

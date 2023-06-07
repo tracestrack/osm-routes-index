@@ -4,6 +4,11 @@
   url = "/NG/road/"
   weight = 1
 [[navbar]]
+  identifier = "bus"
+  name = "Bus"
+  url = "/NG/bus/"
+  weight = 1
+[[navbar]]
   identifier = "subway"
   name = "Subway"
   url = "/NG/subway/"
@@ -12,4 +17,14 @@
   identifier = "train"
   name = "Train"
   url = "/NG/train/"
+  weight = 1
+[[navbar]]
+  identifier = "railway"
+  name = "Railway"
+  url = "/NG/railway/"
+  weight = 1
+[[navbar]]
+  identifier = "hiking"
+  name = "Hiking"
+  url = "/NG/hiking/"
   weight = 1
