@@ -1,1 +1,1 @@
-{"12150383":{"to":"Malmok","ref":"L10","from":"Oranjestad","name":"L10 - Orangestad- Malmok","type":"route","route":"bus","operator":"Arubus"}}
+{"12150383":{"to":"Malmok","ref":"L10","from":"Oranjestad","name":"L10 - Orangestad- Malmok","type":"route","route":"bus","operator":"Arubus"},"16048191":{"to":"Oranjestad --- Arashi Beach","ref":"L10","via":"L.G. Smith Blvd.","from":"Oranjestad","name":"L10A","type":"route","route":"bus","operator":"Arubus N.V.","schedule":"01:00:00","official_name":"L10A: Oranjestad - Arashi","public_transport:version":"2"}}
